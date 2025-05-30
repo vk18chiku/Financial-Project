@@ -42,5 +42,23 @@ The Power BI dashboard provides automated analytics on:
 
 ---
 
-## 📂 Folder Structure
+project-root/
+│
+├── automations/
+│ ├── power_automate_flow.json # Power Automate workflow export
+│ └── drive_upload_log.csv # Log of daily uploads to Google Drive
+│
+├── api/
+│ └── drive_api.py # Flask-based API for serving Google Drive data
+│
+├── data_processing/
+│ └── transform_and_push.py # Python script to clean and prepare data
+│
+├── powerbi/
+│ └── dashboard.pbix # Power BI dashboard file
+│
+├── outputs/
+│ └── processed_data.csv # Cleaned and enriched dataset for BI
+│
+└── README.md
 
