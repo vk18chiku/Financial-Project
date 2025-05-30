@@ -58,7 +58,6 @@ The Power BI dashboard provides automated analytics on:
 
 **Uttam Kumar Mahato**  
 📧 uttammahato379@gmail.com  
-🔧 Automation & Analytics Developer
 
 ---
 
