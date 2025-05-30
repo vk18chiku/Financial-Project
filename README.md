@@ -42,23 +42,25 @@ The Power BI dashboard provides automated analytics on:
 
 ---
 
-project-root/
-│
-├── automations/
-│ ├── power_automate_flow.json # Power Automate workflow export
-│ └── drive_upload_log.csv # Log of daily uploads to Google Drive
-│
-├── api/
-│ └── drive_api.py # Flask-based API for serving Google Drive data
-│
-├── data_processing/
-│ └── transform_and_push.py # Python script to clean and prepare data
-│
-├── powerbi/
-│ └── dashboard.pbix # Power BI dashboard file
-│
-├── outputs/
-│ └── processed_data.csv # Cleaned and enriched dataset for BI
-│
-└── README.md
+## ⏱ Automation Timeline
+
+| Time | Task |
+|------|------|
+| 3:00 PM | Emails received from survey teams across locations |
+| 3:01 PM | Power Automate extracts and uploads files to Google Drive |
+| 3:05 PM | Python script pulls data via API, cleans and transforms |
+| 3:15 PM | Power BI automatically refreshes dashboard |
+| By 8:00 PM | Insights and visuals are ready for delivery to stakeholders |
+
+---
+
+## 📬 Contact
+
+**Uttam Kumar Mahato**  
+📧 uttammahato379@gmail.com  
+🔧 Automation & Analytics Developer
+
+---
+
+
 
